@@ -240,4 +240,45 @@
 
 .redimensionar { transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550); }
 
-img:hover .redimensionar { transform: scale(1.5); }
+.redimensionar:hover { transform: scale(1.5); }
+
+#cfj {
+  height: 196px;
+}
+
+.topj {
+  position: relative;
+  top: -196px;
+}
+
+.tops {
+  position: relative;
+  top: -195px;
+}
+
+.topw {
+  position: relative;
+  top: -194px;
+}
+
+
+#cfj img {
+  /*position:absolute;*/
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cfj img.topj:hover {
+  opacity:0;
+}
+
+#cfj img.tops:hover {
+  opacity:0;
+}
+
+#cfj img.topw:hover {
+  opacity:0;
+}
