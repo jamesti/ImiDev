@@ -1,0 +1,112 @@
+      
+      <div class="container marketing">
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div class="row-fluid">
+
+        <div class="span6 offset3">
+        <form id="formcontato" class="form-horizontal" method="post" action="#">
+          <fieldset>
+
+          <!-- Form Name -->
+          <legend>Formulário de Contato</legend>
+
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="txtnome">Nome:</label>
+            <div class="controls">
+              <input id="txtnome" name="nome" type="text" placeholder="Nome e Sobrenome" class="input-xlarge" required="">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="control-group">
+            <label class="control-label" for="txtemail">Email:</label>
+            <div class="controls">
+              <input id="txtemail" name="email" type="email" placeholder="Email" class="input-xlarge" required="">
+              
+            </div>
+          </div>
+
+          <!-- Select Basic -->
+          <div class="control-group">
+            <label class="control-label" for="sltsetor">Setor</label>
+            <div class="controls">
+              <select id="sltsetor" name="setor" class="input-xlarge">
+                <option value="" selected>Selecione</option>
+                <option value="Compras">Compras</option>
+                <option value="Contabilidade">Contabilidade</option>
+                <option value="Expedicao">Expedição</option>
+                <option value="Financeiro">Financeiro</option>
+                <option value="logistica">Logística</option>
+                <option value="pendencias">Pendências</option>
+                <option value="RH">RH</option>
+                <option value="Vendas">Vendas</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Textarea -->
+          <div class="control-group">
+            <label class="control-label" for="txtmensagem">Mensagem</label>
+            <div class="controls">                     
+              <textarea id="txtmensagem" name="mensagem" rows="5"></textarea>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="control-group">
+            <label class="control-label" for="btnenviar"></label>
+            <div class="controls">
+              <button id="btnenviar" name="btnenviar" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+
+
+
+<!-- Modal -->
+          <div id="modalcontato" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="modalcontato" aria-hidden="true" data-backdrop="static">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="" aria-hidden="true">×</button>
+              <h3>Enviando E-mail</h3>
+            </div>
+            <div class="modal-body">
+    <!-- Progress Bar -->
+              <div class="progress progress-striped active">
+                  <div class="bar bar-success" aria-valuetransitiongoal="30"></div>
+              </div>
+    <!-- Messages -->
+              <div class="alert alert-success fade in hide">
+                <button type="button" class="close" data-dismiss="">&times;</button>
+                <strong>Sucesso!</strong> E-mail enviado com Sucesso!
+              </div>
+              <div id="fail" class="alert fade in hide">
+                <button type="button" class="close" data-dismiss="">&times;</button>
+                <strong>Aviso!</strong> E-mail Inválido!
+              </div>
+    <!-- END Message -->
+            </div>
+            <div class="modal-footer">
+              <!--<button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cancelar</button>-->
+            </div>
+          </div>
+<!-- Fecha Modal -->
+
+          <!-- Messages -->
+          <div class="alert alert-error fade in hide">
+            <button type="button" class="close" data-dismiss="">&times;</button>
+            <strong>Aviso!</strong> Preencher Todos os Campos!
+          </div>
+
+          </fieldset>
+          </form>
+          </div>
+      </div>
+
+      <hr class="featurette-divider">

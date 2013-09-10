@@ -242,8 +242,25 @@
 
 .redimensionar:hover { transform: scale(1.5); }
 
-#cfj {
+.cfj {
   height: 196px;
+}
+
+.img192 {
+  width: 192px;
+}
+
+.img192v {
+  height: 200px;
+}
+
+.img186 {
+  width: 186px;
+}
+
+.topb {
+  position: relative;
+  top: -200px;
 }
 
 .topj {
@@ -262,7 +279,7 @@
 }
 
 
-#cfj img {
+.cfj img {
   /*position:absolute;*/
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
@@ -271,14 +288,24 @@
   transition: opacity 1s ease-in-out;
 }
 
-#cfj img.topj:hover {
+.cfj img.topj:hover {
   opacity:0;
 }
 
-#cfj img.tops:hover {
+.cfj img.tops:hover {
   opacity:0;
 }
 
-#cfj img.topw:hover {
+.cfj img.topw:hover {
   opacity:0;
+}
+
+.cfj img.topb:hover {
+  opacity:0;
+}
+
+/* -- CONTATO -- */
+
+.centro {
+    margin: 0 auto;
 }
