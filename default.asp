@@ -6,12 +6,7 @@ urlo = request.querystring("a")
 
 Select Case urlo
   Case "contato"
-    %><!--#include file="site/contato.html"--><%
-  Case "email"
-    %><!--#include file="app/email.asp"-->
-      <!--#include file="site/template/carousel.html"-->
-      <!--#include file="site/template/equipe.html"-->
-      <!--#include file="site/home.html"--><%    
+    %><!--#include file="site/contato.html"--><%   
   Case "projetos"
     %><!--#include file="site/projetos.html"--><%
   Case "bpmn"
