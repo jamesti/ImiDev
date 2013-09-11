@@ -11,13 +11,17 @@ Select Case urlo
     %><!--#include file="app/email.asp"-->
       <!--#include file="site/template/carousel.html"-->
       <!--#include file="site/template/equipe.html"-->
-      <!--#include file="site/home.html"--><%
-  Case "equipe"
-    
+      <!--#include file="site/home.html"--><%    
   Case "projetos"
-    
-  Case "tecnologias"
-    
+    %><!--#include file="site/projetos.html"--><%
+  Case "bpmn"
+    %><!--#include file="site/login.html"--><%
+  Case "uml"
+    %><!--#include file="site/login.html"--><%
+  Case "up"
+    %><!--#include file="site/login.html"--><%
+  Case "xp"
+    %><!--#include file="site/login.html"--><%
   case else:
     %><!--#include file="site/template/carousel.html"-->
     <!--#include file="site/template/equipe.html"-->

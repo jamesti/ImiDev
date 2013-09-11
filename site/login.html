@@ -8,14 +8,16 @@
 
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Por favor, faça o Login</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+      <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Login - Tecnologia</h2>
+        <input type="text" class="input-block-level" placeholder="Email address" name="email">
+        <input type="password" class="input-block-level" placeholder="Password" name="senha">
         <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Lembre-me
+          <input type="checkbox" value="1"> Lembre-me
         </label>
-        <button class="btn btn-large btn-primary" type="submit">Entrar</button>
+        <button id="btnlogin" class="btn btn-large btn-primary" type="submit">Entrar</button>
       </form>
 
     </div>
+
+    <hr class="featurette-divider">
